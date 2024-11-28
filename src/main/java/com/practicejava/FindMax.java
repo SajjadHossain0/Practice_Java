@@ -14,8 +14,8 @@ public class FindMax {
     }
 
     public static void print(int[] nums) {
-        for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i] + " ");
+        for (int num : nums) {
+            System.out.print(num + " ");
         }
     }
 
@@ -25,11 +25,11 @@ public class FindMax {
         int[] nums2 = {-3, -5, -7, -2, -8};
 
         print(nums);
-        System.out.println("");
+        System.out.println();
         System.out.println("Max number is : " + findMax(nums));
 
         print(nums2);
-        System.out.println("");
+        System.out.println();
         System.out.println("Max number is : " + findMax(nums2));
     }
 }
