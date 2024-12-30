@@ -21,6 +21,8 @@ public class Hashmap {
         hashMap.remove("tuv");
         System.out.println(hashMap);
 
+        System.out.println(hashMap.get("abc"));
+
     }
 
 }
