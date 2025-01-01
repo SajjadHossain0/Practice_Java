@@ -18,6 +18,13 @@ public class Hashmap {
         hashMap.put("wxyz", 8);
         System.out.println(hashMap);
 
+        for(String i : hashMap.keySet()){
+            System.out.println(i+" : "+hashMap.get(i));
+        }
+        for(int i : hashMap.values()){
+            System.out.println(i);
+        }
+
         hashMap.remove("tuv");
         System.out.println(hashMap);
 
