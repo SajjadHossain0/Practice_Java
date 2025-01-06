@@ -1,4 +1,4 @@
-package com.practicejava.code_challange.Day2;
+package com.practicejava.code_challange.HashMap;
 
 import java.util.HashMap;
 
